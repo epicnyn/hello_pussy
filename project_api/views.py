@@ -1,9 +1,4 @@
 from django.db.models import Q
-from django.shortcuts import render
-
-from django.contrib.auth.models import User
-from django.contrib.contenttypes.models import ContentType
-
 from django.db import connection
 from django_filters import rest_framework as filters
 from rest_framework import generics
